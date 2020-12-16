@@ -1,0 +1,49 @@
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.weather {
+    width: max-content;
+    padding: 1rem;
+    margin: 1rem;
+  }
+  .column{
+    float: left;
+    width: 40%;
+    padding: 10px;
+  }
+  .list{
+      list-style-type: none;
+      padding-left: 0;
+  }
+  .list li{
+      padding: 1rem;
+  }
+  .weather .getweather {
+    padding: 8px;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(137, 164, 255);
+    background:rgb(1, 53, 95);
+    cursor: pointer;
+    color: #ffffff;
+  }
+  .weather .getweather:hover {
+    background: #5597e6;
+    color: white;
+  }
+  .weather .getweather:focus {
+    outline: none;
+  }
+  .input-hidden {
+    position: absolute;
+    left: -9999px;
+  }
+  input[type=radio]:checked + label {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 0 0 .1rem .1rem rgb(161, 186, 231);
+  }
