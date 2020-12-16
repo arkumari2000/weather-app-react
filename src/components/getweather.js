@@ -3,7 +3,7 @@ import "./getweather.css"
 import Display from "./showweather";
 
 function Weather(){
-    const APIKEY = "cd7077ed100ab55c0c58f7be32d6caa7";
+    const APIKEY = {your api key};
     const [weather, setWeather] = useState([]);
     const [form,setForm] = useState({
         city: "",
